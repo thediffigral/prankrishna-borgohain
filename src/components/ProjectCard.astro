@@ -1,0 +1,12 @@
+---
+const { project } = Astro.props;
+---
+<article class="project-card">
+  <div class="project-card-top">
+    <span class="year">{project.year}</span>
+    <span class="type">{project.type}</span>
+  </div>
+  <h3>{project.title}</h3>
+  <p>{project.excerpt}</p>
+  <a class="text-link" href={`/projects/${project.slug}/`}>Learn more <span aria-hidden="true">→</span></a>
+</article>

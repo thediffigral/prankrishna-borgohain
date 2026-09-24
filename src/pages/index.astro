@@ -1,0 +1,51 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import ProjectCard from '../components/ProjectCard.astro';
+import { projects } from '../data/projects.js';
+import '../styles/global.css';
+---
+<BaseLayout title="Your Name — Selected Work" description="Personal website and selected projects.">
+  <Header />
+  <main>
+    <section class="hero">
+      <div class="eyebrow">Personal website · Selected work</div>
+      <h1>Ideas, stories &amp; things made along the way.</h1>
+      <p>A personal archive of projects spanning film, writing, digital work and other experiments.</p>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-label">01 / Timeline</div>
+      <div class="timeline" aria-label="Project timeline">
+        {projects.map((project) => (
+          <a class="timeline-item" href={`/projects/${project.slug}/`}>
+            <span class="dot" aria-hidden="true"></span>
+            <strong>{project.title}</strong>
+            <span>{project.year}</span>
+          </a>
+        ))}
+      </div>
+
+      <div class="section-label">02 / Selected projects</div>
+      <div class="project-grid">
+        {projects.map((project) => <ProjectCard project={project} />)}
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-label">03 / About</div>
+      <div>
+        <p>Replace this paragraph with a concise introduction about yourself, what you do, and what connects these projects.</p>
+        <div class="writings">
+          <div>
+            <h2>My writings</h2>
+            <p>Essays, notes and other things I've written.</p>
+          </div>
+          <a class="button" href="https://example.com/writings" target="_blank" rel="noreferrer">Visit ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <Footer />
+</BaseLayout>
