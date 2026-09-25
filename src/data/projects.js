@@ -15,7 +15,7 @@ export const projects = [
     year: 2015,
     title: 'Awrr',
     subtitle: 'You Got Awrrified?',
-    excerpt: 'What Tonmoy, Abhijit, Diptanshu, and I created on the verandah of my home grew into a dream album',
+    excerpt: 'What Tonmoy, Abhijit, Diptanshu, and I created on the verandah of my home grew into a dream album!',
     description: 'We came from a small town and formed a rock band. For young people like us, making an album was the kind of dream that could easily remain a dream. Awrr started on the verandah of my home and gradually became a real album, made with the people who shared that ambition.',
     role: 'Band member and co-creator',
     collaborators: 'The members of Awrr',
