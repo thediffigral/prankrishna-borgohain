@@ -4,7 +4,7 @@ export const projects = [
     year: 2014,
     title: 'Aakhar',
     subtitle: 'A Unicode Assamese e-magazine',
-    excerpt: 'Born in Room 101 of the New Boys\' Hostel, North Lakhimpur College, with my roommate Jyotishman—at a time when Unicode publishing in Assamese was still in its infancy.',
+    excerpt: 'Born in Room 101 of the New Boys\' Hostel, North Lakhimpur College, with my roommate Jyotishman - a small contribution to the emerging world of Unicode Assamese literature.',
     description: 'Aakhar began with my roommate Jyotishman and me. He was the editor and I worked with him as an associate. We wanted to make a magazine entirely in Unicode Assamese. We were college students, working from our hostel room, and the project felt like a small but bold contribution to the emerging world of Unicode Assamese literature.',
     role: 'Associate to the editor',
     collaborators: 'Jyotishman — Editor',
