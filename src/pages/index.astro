@@ -6,17 +6,17 @@ import ProjectCard from '../components/ProjectCard.astro';
 import { projects } from '../data/projects.js';
 import '../styles/global.css';
 ---
-<BaseLayout title="Prankrishna Borgohain — Works" description="A collection of projects by Prankrishna Borgohain.">
+<BaseLayout title="Prankrishna Borgohain" description="A collection of projects by Prankrishna Borgohain.">
   <Header />
   <main>
     <section class="hero">
       <div class="eyebrow">Personal archive</div>
-      <h1>Things I've made along the way.</h1>
-      <p>A collection of ideas, experiments and collaborations that somehow became real.</p>
+      <h1>What is your entropy?</h1>
+      <p>I was asked for the past tense of think. I thought a lot and ended up answering thinked. </p>
     </section>
 
     <section class="section works" id="projects">
-      <div class="section-label">Works</div>
+      {/* <div class="section-label">Works</div> */}
       <div class="work-list">
         {projects.map((project) => <ProjectCard project={project} />)}
       </div>
