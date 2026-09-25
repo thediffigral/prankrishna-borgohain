@@ -4,7 +4,7 @@ export const projects = [
     year: 2014,
     title: 'Aakhar',
     subtitle: 'A Unicode Assamese e-magazine',
-    excerpt: 'Born in Room 101 of the New Boys\' Hostel, North Lakhimpur College, an Assamese e-magazine took shape with my roommate Jyotishman—at a time when Unicode publishing in Assamese was still in its infancy.',
+    excerpt: 'Born in Room 101 of the New Boys\' Hostel, North Lakhimpur College, with my roommate Jyotishman—at a time when Unicode publishing in Assamese was still in its infancy.',
     description: 'Aakhar began with my roommate Jyotishman and me. He was the editor and I worked with him as an associate. We wanted to make a magazine entirely in Unicode Assamese. We were college students, working from our hostel room, and the project felt like a small but bold contribution to the emerging world of Unicode Assamese literature.',
     role: 'Associate to the editor',
     collaborators: 'Jyotishman — Editor',
@@ -15,7 +15,7 @@ export const projects = [
     year: 2015,
     title: 'Awrr',
     subtitle: 'You Got Awrrified?',
-    excerpt: 'What Tonmoy, Abhijit, Diptanshu, and I created on my verandah grew into an album loved and appreciated by many.',
+    excerpt: 'What Tonmoy, Abhijit, Diptanshu, and I created on the verandah of my home grew into a dream album',
     description: 'We came from a small town and formed a rock band. For young people like us, making an album was the kind of dream that could easily remain a dream. Awrr started on the verandah of my home and gradually became a real album, made with the people who shared that ambition.',
     role: 'Band member and co-creator',
     collaborators: 'The members of Awrr',
@@ -36,12 +36,12 @@ export const projects = [
     slug: '3-mahapurux',
     year: 2020,
     title: '3 Mahapurux',
-    subtitle: 'Assamese webcomics',
-    excerpt: 'Lives of Fitahi Handique, Nimakhit Dutta, and Agni Sarmah: created with Tonmoy and brought to life through Rahul\'s drawings.',
+    subtitle: 'Lives of Fitahi Handique, Nimakhit Dutta, and Agni Sarmah',
+    excerpt: 'Created with Tonmoy and brought to life through Rahul\'s drawings.',
     description: 'Tonmoy and I thought up 3 Mahapurux as an online Assamese comic series. Rahul helped us with his amazing drawing work. We published stories from the everyday lives of three fictional characters on Instagram, building a small recurring world one story at a time.',
     role: 'Co-creator',
     collaborators: 'Tonmoy — Co-creator; Rahul — Illustrator',
-    type: 'Comic series'
+    type: 'Assamese Webcomics'
   },
   {
     slug: 'no-mercy-the-battle-of-badminton',
@@ -56,7 +56,7 @@ export const projects = [
   },
   {
     slug: 'etyadi-films',
-    year: 2024,
+    year: 2025,
     title: 'Etyadi Films',
     subtitle: 'Stories I like to watch',
     excerpt: 'A few of my talented actor friends brought the stories in my head to life.',
