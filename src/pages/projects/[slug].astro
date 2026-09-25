@@ -10,12 +10,14 @@ export function getStaticPaths() {
 }
 const { project } = Astro.props;
 ---
-<BaseLayout title={`${project.title} — Your Name`} description={project.excerpt}>
+<BaseLayout title={`${project.title} — Prankrishna Borgohain`} description={project.excerpt}>
   <Header />
   <main class="project-page">
-    <a class="back" href="/#projects">← All projects</a>
+    <a class="back" href="/#projects">← All works</a>
+    <p class="project-year">{project.year}</p>
     <h1>{project.title}</h1>
-    <div class="project-meta"><span>{project.year}</span><span>{project.type}</span></div>
+    <p class="project-subtitle">{project.subtitle}</p>
+    <div class="project-meta"><span>{project.type}</span></div>
     <div class="project-intro">{project.excerpt}</div>
 
     <section class="project-copy">
@@ -27,8 +29,12 @@ const { project } = Astro.props;
       <p>{project.role}</p>
     </section>
     <section class="project-copy">
+      <h2>People</h2>
+      <p>{project.collaborators}</p>
+    </section>
+    <section class="project-copy project-media-note">
       <h2>Media</h2>
-      <p>Add images, film links, documents, credits or other material here as the project pages develop.</p>
+      <p>Images, videos, links and other material can be added here as the project archive develops.</p>
     </section>
   </main>
   <Footer />

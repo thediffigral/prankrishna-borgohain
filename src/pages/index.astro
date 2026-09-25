@@ -6,37 +6,26 @@ import ProjectCard from '../components/ProjectCard.astro';
 import { projects } from '../data/projects.js';
 import '../styles/global.css';
 ---
-<BaseLayout title="Your Name — Selected Work" description="Personal website and selected projects.">
+<BaseLayout title="Prankrishna Borgohain — Works" description="A collection of projects by Prankrishna Borgohain.">
   <Header />
   <main>
     <section class="hero">
-      <div class="eyebrow">Personal website · Selected work</div>
-      <h1>Ideas, stories &amp; things made along the way.</h1>
-      <p>A personal archive of projects spanning film, writing, digital work and other experiments.</p>
+      <div class="eyebrow">Personal archive</div>
+      <h1>Things I've made along the way.</h1>
+      <p>A collection of ideas, experiments and collaborations that somehow became real.</p>
     </section>
 
-    <section class="section" id="projects">
-      <div class="section-label">01 / Timeline</div>
-      <div class="timeline" aria-label="Project timeline">
-        {projects.map((project) => (
-          <a class="timeline-item" href={`/projects/${project.slug}/`}>
-            <span class="dot" aria-hidden="true"></span>
-            <strong>{project.title}</strong>
-            <span>{project.year}</span>
-          </a>
-        ))}
-      </div>
-
-      <div class="section-label">02 / Selected projects</div>
-      <div class="project-grid">
+    <section class="section works" id="projects">
+      <div class="section-label">Works</div>
+      <div class="work-list">
         {projects.map((project) => <ProjectCard project={project} />)}
       </div>
     </section>
 
     <section class="section about" id="about">
-      <div class="section-label">03 / About</div>
+      <div class="section-label">About</div>
       <div>
-        <p>Replace this paragraph with a concise introduction about yourself, what you do, and what connects these projects.</p>
+        <p>I like making things that begin as ideas and become something other people can experience — magazines, music, digital projects, comics, games and films.</p>
         <div class="writings">
           <div>
             <h2>My writings</h2>
