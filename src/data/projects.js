@@ -30,7 +30,7 @@ export const projects = [
     description: 'The Indian Dog Blog was dedicated to my beloved pet dog Aditya. It began as Dog-Talks, where I added funny imagined dialogues to photographs of dogs. Later, I turned it into an Instagram page where different people could share their own experiences with their pets.',
     role: 'Creator',
     collaborators: 'Contributors and pet owners from the community',
-    type: 'Instagram'
+    type: 'Social Media'
   },
   {
     slug: '3-mahapurux',
