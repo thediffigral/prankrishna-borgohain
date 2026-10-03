@@ -8,7 +8,7 @@ export const projects = [
     description: 'Aakhar began with my roommate Jyotishman and me. He was the editor and I worked with him as an associate. We wanted to make a magazine entirely in Unicode Assamese. We were college students, working from our hostel room, and the project felt like a small but bold contribution to the emerging world of Unicode Assamese literature.',
     role: 'Associate to the editor',
     collaborators: 'Jyotishman — Editor',
-    type: 'E-magazine'
+    type: 'E-magazine',
     link: 'https://thediffigral.github.io/epitaph/post/aakhar-dot-in/',
   },
   {
@@ -20,7 +20,7 @@ export const projects = [
     description: 'We came from a small town and formed a rock band. For young people like us, making an album was the kind of dream that could easily remain a dream. Awrr started on the verandah of my home and gradually became a real album, made with the people who shared that ambition.',
     role: 'Band member and co-creator',
     collaborators: 'The members of Awrr',
-    type: 'Music'
+    type: 'Music',
     link: 'http://theawrr.wordpress.com/',
   },
   /*
@@ -45,7 +45,7 @@ export const projects = [
     description: 'Tonmoy and I thought up 3 Mahapurux as an online Assamese comic series. Rahul helped us with his amazing drawing work. We published stories from the everyday lives of three fictional characters on Instagram, building a small recurring world one story at a time.',
     role: 'Co-creator',
     collaborators: 'Tonmoy — Co-creator; Rahul — Illustrator',
-    type: 'Assamese Webcomics'
+    type: 'Assamese Webcomics',
     link: 'https://www.instagram.com/3mahapurux/',
   },
   {
@@ -57,7 +57,7 @@ export const projects = [
     description: 'No Mercy began as a badminton club that Sritam and I co-founded. We developed a set of unusual badminton rules that changed the character of the game, making it feel almost like playing chess in badminton. Research scholars and other enthusiasts around us contributed equally to the project.',
     role: 'Co-founder',
     collaborators: 'Sritam — Co-founder; research scholars and other enthusiasts',
-    type: 'Club'
+    type: 'Club',
     link: 'https://sites.google.com/view/nmbc',
   },
   {
@@ -69,7 +69,7 @@ export const projects = [
     description: 'Some enthusiastic friends of mine are brilliant actors, and they helped me turn my imagination into reality. Through Etyadi Films I have made short films, advertisements—including an advertisement that won a local competition prize—and a web series. Of all of it, my heart is most into making advertisements.',
     role: 'Creator',
     collaborators: 'Friends, actors and collaborators across the projects',
-    type: 'Moving frames'
+    type: 'Moving frames',
     link: 'https://www.youtube.com/@PrankrishnaBorgohain',
   }
 ];
