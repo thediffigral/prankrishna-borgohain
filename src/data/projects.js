@@ -21,6 +21,7 @@ export const projects = [
     collaborators: 'The members of Awrr',
     type: 'Music'
   },
+  /*
   {
     slug: 'the-indian-dog-blog',
     year: 2017,
@@ -32,6 +33,7 @@ export const projects = [
     collaborators: 'Contributors and pet owners from the community',
     type: 'Social Media'
   },
+  */
   {
     slug: '3-mahapurux',
     year: 2020,
