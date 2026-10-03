@@ -9,6 +9,7 @@ export const projects = [
     role: 'Associate to the editor',
     collaborators: 'Jyotishman — Editor',
     type: 'E-magazine'
+    link: 'https://thediffigral.github.io/epitaph/post/aakhar-dot-in/',
   },
   {
     slug: 'awrr',
@@ -20,6 +21,7 @@ export const projects = [
     role: 'Band member and co-creator',
     collaborators: 'The members of Awrr',
     type: 'Music'
+    link: 'http://theawrr.wordpress.com/',
   },
   /*
   {
@@ -44,6 +46,7 @@ export const projects = [
     role: 'Co-creator',
     collaborators: 'Tonmoy — Co-creator; Rahul — Illustrator',
     type: 'Assamese Webcomics'
+    link: 'https://www.instagram.com/3mahapurux/',
   },
   {
     slug: 'no-mercy-the-battle-of-badminton',
@@ -55,6 +58,7 @@ export const projects = [
     role: 'Co-founder',
     collaborators: 'Sritam — Co-founder; research scholars and other enthusiasts',
     type: 'Club'
+    link: 'https://sites.google.com/view/nmbc',
   },
   {
     slug: 'etyadi-films',
@@ -66,5 +70,6 @@ export const projects = [
     role: 'Creator',
     collaborators: 'Friends, actors and collaborators across the projects',
     type: 'Moving frames'
+    link: 'https://www.youtube.com/@PrankrishnaBorgohain',
   }
 ];
